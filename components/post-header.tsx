@@ -25,7 +25,7 @@ export default function PostHeader({
         </div>
       </div>
       <div
-        className="text-3xl font-light leading-relaxed mb-16 mr-16"
+        className="text-3xl font-light leading-relaxed mb-16 mr-4 md:mr-48"
         dangerouslySetInnerHTML={{ __html: excerpt }}
       />
       <div className="mb-8 md:mb-16 sm:mx-0">
