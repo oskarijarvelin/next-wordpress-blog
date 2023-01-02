@@ -24,7 +24,7 @@ export default function Alert({ preview }) {
             </>
           ) : (
             <>
-              Tervetuloa blogiini! Pääsivuston löydät osoitteesta{' '}
+              Tervetuloa blogiini! Pääsivustoni löydät osoitteesta{' '}
               <a
                 href={`https://oskarijarvelin.fi`}
                 className="underline hover:text-success duration-200 transition-colors"
