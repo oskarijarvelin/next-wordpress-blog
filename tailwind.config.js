@@ -1,4 +1,6 @@
 /** @type {import('tailwindcss').Config} */
+const defaultTheme = require('tailwindcss/defaultTheme')
+
 module.exports = {
   content: [
     './pages/**/*.{js,ts,jsx,tsx}',
@@ -12,6 +14,10 @@ module.exports = {
         'accent-7': '#333',
         success: '#0070f3',
         cyan: '#79FFE1',
+      },
+      fontFamily: {
+        'sans': ['Open Sans'],
+        'body': ['Open Sans'],
       },
       spacing: {
         28: '7rem',
