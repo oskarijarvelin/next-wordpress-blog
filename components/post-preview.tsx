@@ -28,7 +28,7 @@ export default function PostPreview({
         ></Link>
       </h3>
 
-      <div className="flex items-center mt-4 mb-8 ">
+      <div className="flex items-center mt-4 mb-4 md:mb-8 ">
         <div className="hidden md:block mr-12">
           <Avatar author={author} />
         </div>

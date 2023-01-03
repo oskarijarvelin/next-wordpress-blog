@@ -28,7 +28,7 @@ export default function HeroPost({
             ></Link>
           </h2>
 
-          <div className="flex items-center mb-12">
+          <div className="flex items-center mb-4 md:mb-8">
             <div className="hidden md:block mr-12">
               <Avatar author={author} />
             </div>

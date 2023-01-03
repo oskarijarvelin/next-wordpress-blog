@@ -1,6 +1,6 @@
 export default function Categories({ categories }) {
   return (
-    <span className="ml-10">
+    <span className="md:ml-10">
       <strong>Kategoriat:</strong>
       {categories.edges.length > 0 ? (
         categories.edges.map((category, index) => (
